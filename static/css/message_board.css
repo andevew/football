@@ -1,0 +1,201 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Medium.woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Black.woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Medium.woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Black.woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+footer {
+  background-color: rgb(22, 73, 206);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  padding: 30px;
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 700;
+  right: 0;
+  bottom: 0;
+  position: relative;
+}
+
+header {
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  height: 7%;
+  color: #fff;
+  background-color: rgb(22, 73, 206);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 12px 0px;
+          box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 12px 0px;
+}
+
+.menu-btn, .account {
+  padding: 10px;
+}
+
+.logo span {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.account {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+}
+
+.links {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  gap: 10px;
+}
+
+a, button, input[type=submit] {
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(237, 238, 242);
+}
+
+ul {
+  list-style: none;
+}
+
+.menu {
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: fixed;
+  height: 100vh;
+  width: 15%;
+  background-color: #fff;
+  left: 0;
+  z-index: 3;
+  margin-top: 50px;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(22, 73, 206);
+}
+.menu p:last-child {
+  color: rgb(204, 14, 0);
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header {
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  height: 7%;
+  color: #fff;
+  background-color: rgb(22, 73, 206);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 12px 0px;
+          box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 12px 0px;
+}
+
+.menu-btn, .account {
+  padding: 10px;
+}
+
+.logo span {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.account {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+}
+
+.links {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  gap: 10px;
+}

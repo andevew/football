@@ -1,0 +1,81 @@
+.game {
+    background-color: white;
+    border-radius: $border-radius;
+    box-shadow: $main-shadow;
+    margin-bottom: 15px;
+    @include text;
+    margin: 20px 0;
+}
+
+.back {
+    padding: 15px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    border-radius: 8px;
+}
+
+.team-two{
+    margin-right: 20px;
+}
+
+.team {
+    flex: 1;
+}
+
+
+
+.game-bid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.at {
+    padding: 5px;
+    @include text(16px, 700);
+    font-style: italic;
+    margin: 0 10px;
+    margin-left: 30px;
+    border-radius: 50%;
+    border: 2px solid $background-color;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.logo-and-name {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+span.team-name{
+    color: #000;
+    @include text(22px, 900);
+}
+
+.team-info {
+    display: flex;
+    flex-direction: column;
+    color: $grey-text;
+    @include text(14px, 500)
+}
+
+.bid {
+    @include text(16px, 5000);
+    color: #000 !important;
+    border: $border-size solid $border-color;
+    border-radius: $border-radius;
+    padding: 5px;
+    background-color: $background-color;
+}

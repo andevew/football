@@ -1,0 +1,540 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Medium.woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Black.woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+.game {
+  background-color: white;
+  border-radius: 8px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px 0px;
+          box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px 0px;
+  margin-bottom: 15px;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.back {
+  padding: 15px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.team-two {
+  margin-right: 20px;
+}
+
+.team {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.game-bid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.at {
+  padding: 5px;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 700;
+  font-style: italic;
+  margin: 0 10px;
+  margin-left: 30px;
+  border-radius: 50%;
+  border: 2px solid rgb(237, 238, 242);
+  width: 30px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: bold;
+}
+
+.logo-and-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+}
+.logo-and-name img {
+  width: 50px;
+  height: 50px;
+}
+
+span.team-name {
+  color: #000;
+  font-family: "Roboto";
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.team-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: rgb(117, 118, 120);
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.bid {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 5000;
+  color: #000 !important;
+  border: 1px solid rgb(32, 33, 33);
+  border-radius: 8px;
+  padding: 5px;
+  background-color: rgb(237, 238, 242);
+}
+
+a, button, input[type=submit] {
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(237, 238, 242);
+}
+
+ul {
+  list-style: none;
+}
+
+.menu {
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: fixed;
+  height: 100vh;
+  width: 15%;
+  background-color: #fff;
+  left: 0;
+  z-index: 3;
+  margin-top: 50px;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(22, 73, 206);
+}
+.menu p:last-child {
+  color: rgb(204, 14, 0);
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header {
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  height: 7%;
+  color: #fff;
+  background-color: rgb(22, 73, 206);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 12px 0px;
+          box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 12px 0px;
+}
+
+.menu-btn, .account {
+  padding: 10px;
+}
+
+.logo span {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.account {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+}
+
+.links {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  gap: 10px;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Medium.woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Black.woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+footer {
+  background-color: rgb(22, 73, 206);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  padding: 30px;
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 700;
+  right: 0;
+  bottom: 0;
+  position: relative;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 55px;
+  height: 26px;
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.switch .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+.switch .slider::before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.switch input:checked ~ .slider {
+  background-color: rgb(22, 73, 206);
+}
+.switch input:checked ~ .slider:before {
+  -webkit-transform: translateX(26px);
+          transform: translateX(26px);
+}
+
+main {
+  width: 75%;
+  margin-right: 2%;
+}
+
+.manager-mode {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 10px;
+  gap: 5px;
+}
+.manager-mode span {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.match-location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 40px;
+  color: rgb(117, 118, 120);
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.picks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: rgb(245, 246, 247);
+  border-radius: 15px;
+  padding: 0 50px;
+  margin: 10px 0;
+}
+
+.picks-count {
+  color: rgb(117, 118, 120);
+  margin: 2px 0;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.tiebreaker {
+  margin: 2px 0;
+  color: rgb(204, 14, 0);
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.drop-btn {
+  border: 1px solid #ccc;
+  width: 130px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #fff;
+  color: rgb(117, 118, 120);
+  padding: 16px;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  position: relative;
+  border-radius: 8px;
+  margin: 10px 20px;
+}
+
+.arrow {
+  margin-left: 8px;
+  font-size: 20px;
+  display: inline-block;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+
+.dropdown-content {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  max-height: 0;
+  overflow: hidden;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: max-height 0.3s ease, opacity 0.3s ease, visibility 0.3s ease;
+  transition: max-height 0.3s ease, opacity 0.3s ease, visibility 0.3s ease;
+}
+.dropdown-content a {
+  color: rgb(117, 118, 120);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+}
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.date-and-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.date-and-info span {
+  margin: 10px 10px 0 10px;
+}
+
+.tickets-cost, .matchup-analysis {
+  color: rgb(22, 73, 206);
+}
+
+.tickets-cost {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.show {
+  max-height: 500px;
+  opacity: 1;
+  visibility: visible;
+}
+
+.info-table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 8px;
+  background-color: #fff;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px 0px;
+          box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px 0px;
+  margin-top: 75px;
+}
+
+.save-btn {
+  background-color: rgb(22, 73, 206);
+  font-family: "Roboto";
+  font-size: 22px;
+  font-weight: 500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 50px;
+  position: relative;
+  width: 350px;
+  padding: 25px 0;
+  height: 40px;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  left: 35%;
+}

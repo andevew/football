@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="/static/css/signup.css"> 
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>#KitR Sports</h1>
+        </div>
+        <div class="box">
+            <h2>Sign Up</h2>
+            <p>Welcome to KitR Sports! Register below to play football pick'em!</p>
+            
+            <form id="signupForm" action="main" method="post">
+                <input required type="email" name="email" id="emailInput" placeholder="Email" autocomplete="on">
+                <input required type="password" name="password" id="passwordInput" placeholder="Password" autocomplete="on">
+                <input required type="password" name="repeatingPassword" id="passwordConfirmInput" placeholder="Confirm Password" autocomplete="on">
+                <input required type="text" name="name" id="firstName" placeholder="First Name" autocomplete="on">
+                <input required type="text" name="surname" id="lastName" placeholder="Last Name" autocomplete="on">
+                <input required type="submit" value="Continue">
+            </form>
+            
+        </div>
+        <div class="account-lack">
+            <p>Already have an account? <a href="/login">Log in</a></p>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="/static/js/validateData.js"></script>
+</body>
+</html>

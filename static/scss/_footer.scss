@@ -1,0 +1,15 @@
+@import './fonts';
+@import './vars';
+@import './mixins';
+
+footer{
+    background-color: $header-color;
+    @include flex-center;
+    width: 100%;
+    padding: 30px;
+    color: #fff;
+    @include text(24px, 700);
+    right: 0;
+    bottom: 0;
+    position: relative;
+}

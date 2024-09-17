@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/static/css/signup.css"> 
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>#KitR Sports</h1>
+        </div>
+        <div class="box">
+            <h2>Log in</h2>
+            <p>Use the email adress and password for your KitR Sports account to log in</p>
+            
+            <form action="login" method="post">
+                <input type="email" name="email" id="emailInput" placeholder="Email" autocomplete="on">
+                <input type="password" name="password" id="passwordInput" placeholder="Password" autocomplete="on">
+                <input type="submit" value="Continue">
+            </form>
+        </div>
+        <div class="account-lack">
+            <p>Don't have an account? <a href="/signup">Sign up</a></p>
+        </div>
+    </div>
+</body>
+</html>
